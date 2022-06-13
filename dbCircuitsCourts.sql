@@ -16,6 +16,17 @@
 /*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
 
 --
+-- Create Database
+--
+CREATE DATABASE dbCircuitsCourts;
+USE dbCircuitsCourts;
+
+--
+-- Database user
+--
+GRANT ALL PRIVILEGES ON dbCircuitsCourts.* TO userCircuitsCourts@localhost IDENTIFIED BY '57-Ze!_eR';
+
+--
 -- Table structure for table `Abonnement`
 --
 
@@ -613,4 +624,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2022-06-13 14:02:09
+-- Dump completed on 2022-06-13 10:39:39
